@@ -31,5 +31,5 @@ I live in Hong Kong. I like systems, clear writing, and building useful things (
 
 ### Find me
 
-- **Email:** <span id="home-email"></span><script>var hu="khalil.khabibullin",hd="googlemail.com",he=hu+"@"+hd;document.getElementById("home-email").innerHTML='<a href="mailto:'+he+'">'+he+'</a>';</script>
+- **Email:** <span class="obf-email" data-u="khalil.khabibullin" data-d="googlemail.com">[enable JS to see email]</span>
 - **LinkedIn:** [add link]
