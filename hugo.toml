@@ -1,0 +1,44 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My Site'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  env = "production"
+  description = "Personal site"
+  author = "Your Name"
+  defaultTheme = "auto"        # auto, light, dark
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Now"
+    url = "/now/"
+    weight = 3
+  [[menu.main]]
+    name = "Books"
+    url = "/books/"
+    weight = 4
+  [[menu.main]]
+    name = "Writing"
+    url = "/writing/"
+    weight = 5
+  [[menu.main]]
+    name = "Interests"
+    url = "/interests/"
+    weight = 6
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
