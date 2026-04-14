@@ -19,9 +19,9 @@ I live in Hong Kong. I like systems, clear writing, and building useful things (
 ### Selected highlights
 
 - Built and ran an AI idea-to-prototype funnel across a 7,000-person division — 200+ qualified use cases from a single ideation contest
-- Architected a greenfield insurance entity (including regulatory licence) delivering $500M in New Business CSM revenue over 5 years
 - Led European legal entity merger impacting 3,000+ employees, delivering $78M in verified cost savings
 - Designed CRM solutions for 4,000 front-office colleagues, driving $50M YoY revenue uplift
+- Architected a greenfield insurance entity (including regulatory licence) delivering $500M in New Business CSM revenue over 5 years
 
 ### Current focus
 
@@ -32,4 +32,4 @@ I live in Hong Kong. I like systems, clear writing, and building useful things (
 ### Find me
 
 - **Email:** <span class="obf-email" data-u="khalil.khabibullin" data-d="googlemail.com">[enable JS to see email]</span>
-- **LinkedIn:** [add link]
+- **LinkedIn:** [Linkedin Profile (https://www.linkedin.com/in/khalilkhabibullin/)]

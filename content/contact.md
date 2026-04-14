@@ -9,9 +9,7 @@ The best way to reach me is email. I read everything, though I may not reply ins
 
 **Email:** <span class="obf-email" data-u="khalil.khabibullin" data-d="googlemail.com">[enable JS to see email]</span>
 
-**LinkedIn:** [add your LinkedIn URL]
-
-**GitHub:** [add if you want to share]
+**LinkedIn:** [Linkedin Profile (https://www.linkedin.com/in/khalilkhabibullin/)]
 
 ---
 
