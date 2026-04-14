@@ -1,0 +1,11 @@
+ $user := .Get "user" 
+ $domain := .Get "domain" 
+<span class="email-link" data-u=" $user " data-d=" $domain ">
+  [enable JavaScript to see email]
+</span>
+<script>
+  document.querySelectorAll('.email-link').forEach(function(el) {
+    var e = el.dataset.u + '@' + el.dataset.d;
+    el.innerHTML = '<a href="mailto:' + e + '">' + e + '</a>';
+  });
+</script>

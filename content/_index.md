@@ -31,5 +31,5 @@ I live in Hong Kong. I like systems, clear writing, and building useful things (
 
 ### Find me
 
-- Email: [khalil.khabibullin@googlemail.com](mailto:khalil.khabibullin@googlemail.com)
-- LinkedIn: [add link]
+- **Email:** < email user="khalil.khabibullin" domain="googlemail.com" >
+- **LinkedIn:** [add link]

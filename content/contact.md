@@ -7,7 +7,7 @@ The best way to reach me is email. I read everything, though I may not reply ins
 
 ---
 
-**Email:** [khalil.khabibullin@googlemail.com](mailto:khalil.khabibullin@googlemail.com)
+**Email:** < email user="khalil.khabibullin" domain="googlemail.com" >
 
 **LinkedIn:** [add your LinkedIn URL]
 
