@@ -1,8 +1,13 @@
-baseURL = 'https://www.kkhabibullin.com/'
+baseURL = 'https://khalilkk.com/'
 languageCode = 'en-us'
 title = 'Khalil Khabibullin'
 theme = 'PaperMod'
 paginate = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   env = "production"

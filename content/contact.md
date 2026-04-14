@@ -7,7 +7,7 @@ The best way to reach me is email. I read everything, though I may not reply ins
 
 ---
 
-**Email:** < email user="khalil.khabibullin" domain="googlemail.com" >
+**Email:** <span id="contact-email"></span><script>var cu="khalil.khabibullin",cd="googlemail.com",ce=cu+"@"+cd;document.getElementById("contact-email").innerHTML='<a href="mailto:'+ce+'">'+ce+'</a>';</script>
 
 **LinkedIn:** [add your LinkedIn URL]
 
