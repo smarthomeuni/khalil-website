@@ -32,4 +32,4 @@ I live in Hong Kong. I like systems, clear writing, and building useful things (
 ### Find me
 
 - **Email:** <span class="obf-email" data-u="khalil.khabibullin" data-d="googlemail.com">[enable JS to see email]</span>
-- **LinkedIn:** [Linkedin Profile (https://www.linkedin.com/in/khalilkhabibullin/)]
+- **LinkedIn:** [linkedin.com/in/khalilkhabibullin](https://www.linkedin.com/in/khalilkhabibullin/)
