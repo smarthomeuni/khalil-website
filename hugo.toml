@@ -1,17 +1,27 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://khalilkk.com/'
 languageCode = 'en-us'
-title = 'My Site'
+title = 'Khalil Khabibullin'
 theme = 'PaperMod'
 paginate = 10
 
 [params]
   env = "production"
-  description = "Personal site"
-  author = "Your Name"
-  defaultTheme = "auto"        # auto, light, dark
+  description = "Change, AI strategy, and building useful things."
+  author = "Khalil Khabibullin"
+  defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.homeInfoParams]
+    Title = "Hello. I'm Khalil Khabibullin."
+    Content = "I help organisations ship change that actually sticks — where strategy, operating models, and AI adoption meet. I live in Hong Kong. I like systems, clear writing, and building useful things."
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:khalil.khabibullin@googlemail.com"
 
 [menu]
   [[menu.main]]
