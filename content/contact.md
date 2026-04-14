@@ -1,10 +1,25 @@
 ---
 title: "Contact"
-date: 2026-04-12
-menu: main
-weight: 7
+description: "How to reach me."
 ---
 
-## Get in Touch
+The best way to reach me is email. I read everything, though I may not reply instantly.
 
-The best way to reach me is via email: **you@example.com**
+---
+
+**Email:** [khalil.khabibullin@googlemail.com](mailto:khalil.khabibullin@googlemail.com)
+
+**LinkedIn:** [add your LinkedIn URL]
+
+**GitHub:** [add if you want to share]
+
+---
+
+I'm based in Hong Kong (GMT+8). I'm open to conversations about:
+
+- AI strategy and adoption in large organisations
+- Transformation and operating model design
+- n8n, self-hosting, and building personal AI tools
+- Book recommendations (especially sci-fi)
+
+If you're a recruiter, please include the role, company, and location in your first message. Generic "exciting opportunity" emails get archived.
