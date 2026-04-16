@@ -15,75 +15,9 @@ The setup has two physical layers: a **home server** (`sienabot`, Ubuntu + Docke
 
 **Authentik** provides SSO across most services. **Gluetun** routes selected containers through a VPN. **Traefik** handles routing on the VPS side.
 
-```mermaid
-graph TB
-    Internet["🌐 Internet"]
+## Architecture Diagram
 
-    subgraph VPS["☁️ VPS — Singapore"]
-        Gerbil["Gerbil<br>WireGuard Tunnel"]
-        Pangolin["Pangolin<br>Reverse Proxy"]
-        Traefik["Traefik<br>Router"]
-        ThreeXUI["3x-ui<br>XRay Proxy"]
-        Guacamole["Guacamole<br>Remote Desktop"]
-    end
-
-    subgraph Home["🖥️ Home Server — sienabot"]
-        Newt["Newt<br>Tunnel Agent"]
-        Authentik["Authentik<br>SSO"]
-        Gluetun["Gluetun<br>VPN Gateway"]
-
-        subgraph MediaSvcs["📺 Media"]
-            Plex["Plex"]
-            Seerr["Seerr"]
-            MeTube["MeTube"]
-            ABS["Audiobookshelf"]
-            Calibre["Calibre Web"]
-        end
-
-        subgraph PhotoSvcs["📸 Photos"]
-            Immich["Immich"]
-        end
-
-        subgraph AISvcs["🤖 AI & Automation"]
-            OpenWebUI["Open WebUI"]
-            OpenClaw["OpenClaw"]
-            N8N["n8n"]
-            Qdrant["Qdrant"]
-            SearXNG["SearXNG"]
-            EvolutionAPI["Evolution API"]
-        end
-
-        subgraph KnowledgeSvcs["📚 Knowledge"]
-            Karakeep["Karakeep"]
-            Nextcloud["Nextcloud"]
-        end
-
-        subgraph DevSvcs["🛠️ Dev & Monitoring"]
-            Hugo["Hugo"]
-            CodeServer["code-server"]
-            Termix["Termix"]
-            Beszel["Beszel"]
-        end
-
-        subgraph StorageLayer["💾 Storage"]
-            HDD["5.5TB HDD<br>/mnt/6tbw"]
-            NVMe["232GB NVMe<br>OS drive"]
-        end
-    end
-
-    Internet -->|"HTTPS"| Traefik
-    Traefik --> Pangolin
-    Pangolin <-->|"WireGuard via Gerbil"| Newt
-    Authentik -->|"forward auth"| MediaSvcs & PhotoSvcs & AISvcs & KnowledgeSvcs & DevSvcs
-    Gluetun -->|"VPN tunnel"| N8N
-    Gluetun -->|"VPN tunnel"| SearXNG
-    MediaSvcs --> HDD
-    PhotoSvcs --> HDD
-    KnowledgeSvcs --> HDD
-    HDD --->|"rclone → Backblaze B2"| Internet
-```
-
-> **Note on Mermaid diagrams:** For this diagram to render, your Hugo theme needs Mermaid support. Add `mermaid: true` to the frontmatter and ensure your theme loads the Mermaid JS library.
+![Homelab network architecture — sienabot + Singapore VPS](/images/Homelab_diagram.png)
 
 ---
 
